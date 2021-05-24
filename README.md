@@ -12,7 +12,7 @@ I started by cleaning the data and exploring the most interesting variables. Apa
 
 I explored univariate distributions of interval variables, including Salary, Years of Experience Required and Miles From Metropolis in addition to bivariate relationships that included finding out how the offered Salary differed among different Industries and with Years of Experience Required. 
 
-Weak correlations, both negative and positive, were found for the bivariate investigations. The univariate relationships were mostly normaly distributed with a small degree of skewness.
+Weak correlations, both negative and positive, were found for the bivariate investigations. The univariate relationships were mostly normally distributed with a small degree of skewness.
 
 ## Feature Engineering
 
