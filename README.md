@@ -29,6 +29,8 @@ My approaches here included:
 - Linear SVM
 - Gradient Boosting Regressor
 
+I chose these models because they contain a good mix of model complexity, ranging from the simple with Linear Regression to the more complex for the ensemble method of GB Regressor.
+
 # Results
 
 The best performing model was Polynomial Regression, which resulted in an MSE of 354 units. This is a 74.1% improvement over the baseline model MSE of 1367.12
