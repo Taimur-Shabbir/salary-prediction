@@ -33,6 +33,8 @@ I chose these models because they contain a good mix of model complexity, rangin
 
 # Results
 
-The best performing model was Polynomial Regression, which resulted in an MSE of 354 units. This is a 74.1% improvement over the baseline model MSE of 1367.12
+I succeeded in the goal of improving upon the score of my baseline prediction. The best performing model was Polynomial Regression, which resulted in an MSE of 354 units. This is a 74.1% improvement over the baseline model MSE of 1367.12
 
-In terms of what could be improved upon, more advanced models such as neural networks could be used. More feature engineering could be undertaken, such as creating simple minimum, maximum and average salaries for each value of Industry, Degree and Major.
+In terms of what could be improved upon, more advanced models such as neural networks could be used. More feature engineering could be undertaken, such as creating simple minimum, maximum and average salaries for each value of Industry, Degree and Major. 
+
+Finally, all models used could have been tuned. I implemented Grid Search for GB Regressor only due to computational constraints. It is possible that the other models could be the best-performing if their hyperparameters were tuned.
