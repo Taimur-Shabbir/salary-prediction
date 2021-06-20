@@ -17,9 +17,9 @@ The business value in this problem can be manifold and could relate to a variety
 There are 1 million observations in the dataset with 8 pre-existing features. I hypothesise that these variables hold significant predictive potential that can considerably outperform a simple baseline prediction
 
 
-## data
+## Data
 
-**Observations**: The dataset contains 1000000 observations where each observation is a single job posting
+**Observations**: The dataset contains 1 million observations where each observation is a single job posting.
 
 **Features**: There are 8 features in total. 2 of these are interval in nature while the rest are categorical. Features relate to various aspects of the job posting and its description. A few examples are:
 
