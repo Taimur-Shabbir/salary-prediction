@@ -1,4 +1,6 @@
-# Problem exposition, Business Value and Data
+# Introduction
+
+## Problem exposition and Business Value
 
 This project aims to predict salaries for job postings given a set of features that include but is not limited to Degree Requirement, Industry of Job, Miles From Metropolis and Major Required. Thus, it is a supervised learning, regression task.
 
@@ -14,11 +16,28 @@ The business value in this problem can be manifold and could relate to a variety
 
 There are 1 million observations in the dataset with 8 pre-existing features. I hypothesise that these variables hold significant predictive potential that can considerably outperform a simple baseline prediction
 
+
+## data
+
+**Observations**: The dataset contains 1000000 observations where each observation is a single job posting
+
+**Features**: There are 8 features in total. 2 of these are interval in nature while the rest are categorical. Features relate to various aspects of the job posting and its description. A few examples are:
+
+- jobType: The seniority level of the job. Example values are "Manager", "CEO" and "Vice President"
+- milesFromMetropolis: The distance of the job in miles from an urban centre called Metropolis
+- yearsExperience: The number of years of experience required by the job
+- industry: The industry the job is in. Example values are "Service", "Finance" and "Oil"
+
+**Outcome variable**: The outcome variable is called "salary" and this vector contains the salary offered by the job posting. There is no currency provided so the units are arbitrary.
+
+
 # Approach and Insights
 
-## Cleaning and EDA
+## Data Cleaning
 
 I started by cleaning the data and exploring the most interesting variables. Apart from a very small number of erroneous observations, where the outcome (Salary) was given a value of 0, the data was mostly clean and ready to be investigated.
+
+## EDA
 
 I explored univariate distributions of interval variables, including Salary, Years of Experience Required and Miles From Metropolis in addition to bivariate relationships that included finding out how the offered Salary differed among different Industries and with Years of Experience Required.
 
@@ -54,7 +73,7 @@ I mostly concentrated on correctly encoding the 4 categorical variables in the d
 I did not create any interaction variables because no such combination made intuitive sense.
 
 
-## Models
+## Training Models
 
 My approaches here included:
 
